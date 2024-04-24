@@ -21,6 +21,7 @@ const App = () => {
     return <ErrorMessage error={error} />
   }
 
+  console.log(test)
   return (
     <Router>
       <Switch>
